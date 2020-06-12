@@ -1,0 +1,362 @@
+body {
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif; 
+}
+.opacity{
+    opacity: 0.5;
+    background-color: black ;
+    width: 100% ;
+    height: 600px;
+    position: relative ;
+    top: 70px;
+        
+    
+}
+.navbar {
+    width: 100%;
+    height: 70px ;
+    background-color: white ;
+    float: left ;
+    position: relative ;
+    opacity: 0.9;
+    
+}
+.navbar p a {
+    text-decoration: none ;
+    font-size: 40px;
+    padding-left: 16px ;
+    position: relative ;
+    bottom: 10px;
+    color: darkslategrey;
+}
+.navbar ul a {
+    
+    text-decoration: none ;
+}
+
+.navbar ul li {
+    display: inline;
+    position: relative;
+    left: 500px ;
+    bottom: 65px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px ;
+    color: darkslategrey ;
+    padding: 10px;
+    
+    
+}
+.navbar ul li:hover{
+    color: #C05858 ;
+    border-bottom: 2px solid #E72121 ;
+    transition: 0.4s ;
+  
+}
+.header {
+    
+    background-image:url(image14.jpg) ;
+    background-size: cover ;
+    height:669px;
+}
+.header p {
+    font-size: 59px;
+    position: relative;
+    bottom: 366px ;
+    left: 380px;
+    width: 570px;
+    color: white ;
+    font-weight: 300 ;
+    border-bottom: 4px solid #E72121  ;
+    
+}
+
+.header a{
+    position: relative ;
+    bottom: 366px ;
+    left: 620px ;
+    font-size: 20px ;
+    text-decoration: none ;
+    color: white ;
+    border: 2px solid  white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px ;
+    font-weight: 500 ;
+    
+}
+.header a:hover{
+    background-color: white ;
+    color:  #E72121;
+    font-weight: bold ;
+    transition: 0.9s ;
+}
+.about {
+    background-color: white;
+    background-size: cover ;
+    height:588px;
+}
+
+.about span {
+    font-size: 50px;
+    padding-left: 5px;
+    border-bottom: 4px solid #E72121 ;
+    margin-left: 20px;
+    
+}
+.about p {
+    font-size: 20px;
+    width: 50% ;
+    padding-left: 10px;
+
+}
+.about img {
+    width: 40%;
+    float: right;
+    position: relative ;
+    right: 50px;
+    bottom: 340px;
+    box-shadow: 10px 0px 20px black ;
+}
+
+.design {
+    background-image:linear-gradient(0deg, rgba(100, 100, 100, 0.6), rgba(100, 100, 100, 0.6)), url(50.jpg);
+    background-size: cover ;
+    height:700px;
+    
+}
+.design span {
+    
+    font-size:48px;
+    position: relative ;
+    top: 40px;
+    left: 500px;
+    border-bottom: 4px solid #E72121 ;
+    opacity: 0.9;
+    
+}
+.t {
+    border: 2px solid #E72121 ;
+    width: 25%;
+    height: 400px;
+    position: relative ;
+    left: 30px ;
+    top: 150px;
+    
+    
+}
+.t2 {
+    border: 2px solid #E72121 ;
+    width: 25%;
+    height: 400px;
+    position: relative ;
+    left: 500px ;
+    bottom: 255px;
+    
+}
+.t3 {
+    border: 2px solid #E72121 ;
+    width: 25%;
+    height: 400px;
+    position: relative ;
+    left: 955px ;
+    bottom: 657px ;
+    
+    
+}
+.t img {
+    width: 330px ;
+    height: 430px ;
+    padding-left: 3px;
+    
+    
+}
+.t2 img {
+    width: 310px ;
+    height: 400px ;
+    padding-left: 25px;
+    
+    
+}
+.t3 img {
+    width: 357px ;
+    height: 459px ;
+    
+    
+    
+}
+.buy1{
+    position: relative ;
+    bottom: 640px ;
+    left: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border: 2px solid  #E72121;
+    border-radius: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 4px ;
+    padding-top: 4px ;
+    font-weight: 300;
+}
+.buy2{
+    position: relative ;
+    bottom: 640px ;
+    left: 192px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border: 2px solid  #E72121;
+    border-radius: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 4px ;
+    padding-top: 4px ;
+    font-weight: 300;
+}
+
+.buy3{
+    position: relative ;
+    bottom: 640px ;
+    left: 328px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border: 2px solid  #E72121;
+    border-radius: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 4px ;
+    padding-top: 4px ;
+   font-weight: 300; 
+}
+
+.buy1:hover{
+    background-color: white ;
+    color: #E72121 ;
+    border: 2px solid  white; 
+    font-weight: 600;
+    transition: 0.8s ;
+}
+.buy1:active{
+    color: white;
+    background-color:#E72121 ;
+    
+}
+.buy2:hover{
+    background-color: white ;
+    color: #E72121 ;
+    border: 2px solid  white; 
+    font-weight: 600;
+    transition: 0.8s ;
+}
+.buy2:active{
+    color: white;
+    background-color:#E72121 ;
+    
+}
+.buy3:hover{
+    background-color: white ;
+    color: #E72121 ;
+    border: 2px solid  white; 
+    font-weight: 600;
+    transition: 0.8s ;
+}
+.buy3:active{
+    color: white;
+    background-color:#E72121 ;
+    
+}
+.services {
+    background-image:linear-gradient(0deg, rgba(100, 100, 100, 0.6), rgba(100, 100, 100, 0.6)), url(80.jpg);
+    background-size: cover ;
+    height:700px;
+    width: 100%;
+    
+}
+.services span {
+    position: relative ;
+    color: white;
+    border-bottom:4px solid white ;
+    left: 440px;
+    top: 27px;
+    font-size: 80px;
+    
+}
+.services .itm{
+    color: white;
+    position: relative;
+    left: 100px ;
+    top: 100px;
+    width: 20% ;
+    margin-top: 125px ;
+    
+    
+    
+}
+.services .itm i{
+   position: relative;
+    left: 115px ;
+    padding: 13px ;
+    background-color:  #E72121 ;
+    opacity: 0.7 ;
+    
+}
+.services .itm2 i{
+   position: relative;
+    left: 115px ;
+    padding: 13px ;
+    background-color:  #E72121 ;
+    opacity: 0.7 ;
+    
+}
+.services .itm3 i{
+   position: relative;
+    left: 115px ;
+    padding: 13px ;
+    background-color:  #E72121 ;
+    opacity: 0.7 ;
+    
+    
+}
+.services .itm2{
+    color: white;
+    position: relative;
+    left: 529px ;
+    bottom: 90px;
+    width: 20% ;
+    
+    
+    
+    
+}
+.services .itm3{
+    color: white;
+    position: relative;
+    left: 1000px ;
+    bottom: 284px;
+    width: 20% ;
+    
+    
+    
+    
+}
+.copyrghit{
+    height: 35px ;
+    background-color: white ;
+}
+.copyrghit p {
+    color: darkslategray ;
+    margin-left: 585px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
